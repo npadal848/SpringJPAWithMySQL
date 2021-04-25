@@ -15,7 +15,7 @@ import com.np.jpa.entity.Employee;
 import com.np.jpa.repository.EmployeeRepo;
 
 @RestController
-public class EmployeeController {
+public class EmployeeController { 
 
 	@Autowired
 	private EmployeeRepo repo;
